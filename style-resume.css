@@ -1,0 +1,113 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d7fcdb;
+    line-height: 1.7;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 600px 800px;
+    grid-template-rows: 900px 500px;
+    background-color: #bcf5bc;
+}
+
+.title{
+    color: rgb(0, 76, 0);
+    font-size: 20px;
+}
+
+.heading-left{
+    color: rgb(190, 241, 190);
+}
+
+.heading-right{
+    color: forestgreen;
+}
+
+.intro p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-size: 20px;
+}
+
+.intro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #56c256;
+    padding-bottom: 70px;
+}
+
+.skills ul{
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font-size: 17px;
+}
+
+.skills{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #56c256;
+    
+}
+
+.work .work-text{
+    width: 600px;
+    margin-top: -30px;
+}
+
+.heading-job{
+    margin-top: 20px;
+}
+
+.work h2{
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+
+.work{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.education .school{
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.education h2{
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.education{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: -100px;
+    text-align: left;
+}
+
+h5{
+    text-align: center;
+
+}
